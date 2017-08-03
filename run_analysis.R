@@ -86,15 +86,15 @@ test <- get_set("test")
 train <- get_set("train")
 
 # Merge the train and test sets to get all sets
-tidy_data <- merge(test, train, all=TRUE)
+tidy.data <- merge(test, train, all=TRUE)
 
 # Create a second data set that is the average of each variable for each
 # activity and each subject.
-grouped_data <- group_by(tbl_df(tidy_data), subject, activity)
-measurement_averages <- aggregate(grouped_data[,1:18], 
+grouped_data <- group_by(tbl_df(tidy.data), subject, activity)
+measurement.averages <- aggregate(grouped_data[,1:18], 
                                   list(grouped_data$subject, 
                                        grouped_data$activity), mean)
-names(measurement_averages) <- c("subject", "activity", measurements)
+names(measurement.averages) <- c("subject", "activity", measurements)
 
 # Clean up after the script is done
 remove(grouped_data)
