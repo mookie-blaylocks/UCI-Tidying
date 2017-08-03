@@ -2,9 +2,9 @@
 
 ## Source Material
 
-Data from the an experiement using smartphones to measure linear and gyroscopic acceleration can be found [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](here).
+Data from the an experiement using smartphones to measure linear and gyroscopic acceleration can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
-This zip file contains a README and other informational text. For more information, see [https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](this page).
+This zip file contains a README and other informational text. For more information, see [this page](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 ## Tidying
 
